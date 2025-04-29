@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "husky": "^9.1.7",
@@ -15,8 +15,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  "lint-staged":{
-       "*.{js,ts,tsx}": "eslint --cache --fix"
+  "lint-staged": {
+    "*.{js,ts,tsx}": "eslint --cache --fix"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
