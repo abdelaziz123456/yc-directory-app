@@ -10,11 +10,12 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.0",
     "husky": "^9.1.7",
     "next": "15.2.3",
-    "next-auth": "^5.0.0-beta.27",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --cache --fix"
